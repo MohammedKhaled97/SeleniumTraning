@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  parallel="tests" name="All Test Suite">
+    <test  name="Valid">
+        <parameter name="browser" value="Chrome"></parameter>
+        <parameter name="URL" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"></parameter>
+        <classes>
+            <class name="Challenge_Tests.ValidLoginTest_20"/>
+        </classes>
+    </test>
+    <test  name="Invalid">
+        <parameter name="browser" value="Firefox"></parameter>
+        <parameter name="URL" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"></parameter>
+        <classes>
+            <class name="Challenge_Tests.NegativeLoginTest_20"/>
+        </classes>
+    </test>
+</suite>

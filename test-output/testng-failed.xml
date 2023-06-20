@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Valid(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="URL" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"/>
+    <classes>
+      <class name="Challenge_Tests.ValidLoginTest_20">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="AfterMethod"/>
+          <include name="tearDownClass"/>
+          <include name="AfterTest"/>
+          <include name="BeforeTest"/>
+          <include name="ValidLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Challenge_Tests.ValidLoginTest_20 -->
+    </classes>
+  </test> <!-- Valid(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

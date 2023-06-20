@@ -1,0 +1,13 @@
+Challenge_Pages\BasePage.class
+Challenge_Pages\UploadPage.class
+Challenge_Pages\CallenderSecondPage.class
+Challenge_Pages\HandleMultipleWindowsPage.class
+Challenge_Pages\DragDropPage.class
+Challenge_Pages\LoginPage.class
+Challenge_Pages\DoubleClickPage.class
+Challenge_Pages\PracticePage.class
+Challenge_Pages\RightClickPage.class
+Challenge_Pages\amazonPage.class
+Challenge_Pages\HighestPrice_Page.class
+Challenge_Pages\CallenderThirdPage.class
+Challenge_Pages\CallenderFirstPage.class

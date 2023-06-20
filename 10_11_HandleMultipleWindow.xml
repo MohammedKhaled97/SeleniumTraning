@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browser" value="Chrome"></parameter>
+    <parameter name="URL" value="https://www.lambdatest.com/selenium-playground/window-popup-modal-demo"></parameter>
+    <test verbose="2" preserve-order="true" name="Challenge_Tests">
+        <classes>
+            <class name="Challenge_Tests.HandleWindowTest_10_11"/>
+        </classes>
+    </test>
+</suite>

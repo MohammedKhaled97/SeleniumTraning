@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browser" value="Chrome"></parameter>
+    <parameter name="URL" value="https://demo.guru99.com/test/simple_context_menu.html"></parameter>
+    <test verbose="2" preserve-order="true" name="/Iframe_Test.java">
+        <classes>
+            <class name="Challenge_Tests.RightClickTest_4"/>
+        </classes>
+    </test>
+</suite>
